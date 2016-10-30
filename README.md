@@ -1,18 +1,19 @@
 # debian-python-live555
-
 Giuseppe De Marco, demarcog83 at gmail.com</br>
+
+forked from </br>
+https://pypi.python.org/pypi/live555/1.0
 Mike McCandless, mikemccand at gmail.com</br>
 
-This contains a small Python wrapper around the Live555 Streaming
+This contains a small Python3 wrapper around the Live555 Streaming
 Media APIs, so that you can load video frames.  It only wraps a tiny,
 tiny subset of all of Live555's APIs, specifically the APIs necessary
 to pull frames via RTSP/RTP from an IP camera.
 
-<b>Mike McCandless</b> only tested on Linux with Python 3, with the surprisingly
-excellent Lorex LNB2151/LNB2153 cameras, with H264 video.  Please
-report back if you succeed with other cameras.
+<b>Mike McCandless</b> tested on Linux with the surprisingly
+excellent Lorex LNB2151/LNB2153 cameras, with H264 video.  
 
-<b>Giuseppe</b> only tested with ipcam Maygion h264, not so surprising but works.
+<b>Giuseppe</b> only tested with ipcam Maygion h264, not so surprising as camera but works.
 
 INSTRUCTIONS:
 
