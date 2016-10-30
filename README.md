@@ -28,4 +28,5 @@ INSTRUCTIONS:
     *python3 example.py 10.17.4.118 1 10 out.264
     
     That will record 10 seconds of H264 video from the camera at
+
     10.17.4.118, channel 1, saving it to the file out.264.
