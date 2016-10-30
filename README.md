@@ -1,7 +1,7 @@
 # debian-python-live555
 
-Giuseppe De Marco, demarcog83 at gmail.com
-Mike McCandless, mikemccand at gmail.com
+Giuseppe De Marco, demarcog83 at gmail.com</br>
+Mike McCandless, mikemccand at gmail.com</br>
 
 This contains a small Python wrapper around the Live555 Streaming
 Media APIs, so that you can load video frames.  It only wraps a tiny,
@@ -31,13 +31,12 @@ INSTRUCTIONS:
      That will record 10 seconds of H264 video from the camera at
      10.17.4.118, channel 1, saving it to the file out.264.
 
-An alternative should be:
-# this forge two files: video-H264-1 and audio-PCMU-2 
+This forge two files: video-H264-1 and audio-PCMU-2 
 openRTSP  rtsp://admin:passwd@10.87.7.10:80
 
-# and then convert it in a viewable format
-# only video
+Then convert it in a viewable format
+...only video
 ffmpeg -i video-H264-1  -acodec copy -vcodec copy -map 0:0  merged.mp4
 
-# video and audio
+... or video and audio
 ffmpeg -i video-H264-1 -i audio-PCMU-2 -acodec copy -vcodec copy -map 0:0 -map 1:0 merged.mp4
