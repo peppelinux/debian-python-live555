@@ -16,19 +16,19 @@ Giuseppe only tested with ipcam Maygion h264, not so surprising but works.
 
 INSTRUCTIONS:
 
-  1. First install the Live555 library from Debian repository
+  1. First install the Live555 library from Debian repository</br>
      aptitude install livemedia-utils liblivemedia-dev python3 python3-dev python3-pip
   
   2. Download/clone this repo
 
-  3. then
+  3. then</br>
      python3 setup.py build
      python3 setup.py install
 
-  4. Run the example (some costants should be configured in example.py)
+  4. Run the example (some costants should be configured in example.py)</br>
      python3 example.py 10.17.4.118 1 10 out.264
     
-     That will record 10 seconds of H264 video from the camera at
+     That will record 10 seconds of H264 video from the camera at</br>
      10.17.4.118, channel 1, saving it to the file out.264.
 
 This forge two files: video-H264-1 and audio-PCMU-2 
