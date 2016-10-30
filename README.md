@@ -1,7 +1,8 @@
 # debian-python-live555
 
-*Giuseppe De Marco, demarcog83 at gmail.com
-*Mike McCandless, mikemccand at gmail.com
+Giuseppe De Marco, demarcog83 at gmail.com
+
+Mike McCandless, mikemccand at gmail.com
 
 This contains a small Python wrapper around the Live555 Streaming
 Media APIs, so that you can load video frames.  It only wraps a tiny,
