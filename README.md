@@ -2,7 +2,7 @@
 Giuseppe De Marco, demarcog83 at gmail.com</br>
 
 forked from </br>
-https://pypi.python.org/pypi/live555/1.0
+https://pypi.python.org/pypi/live555/1.0</br>
 Mike McCandless, mikemccand at gmail.com</br>
 
 This contains a small Python3 wrapper around the Live555 Streaming
