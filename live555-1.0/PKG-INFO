@@ -3,8 +3,8 @@ Name: live555
 Version: 1.0
 Summary: Basic wrapper around live555 to load RTSP video streams
 Home-page: UNKNOWN
-Author: UNKNOWN
-Author-email: UNKNOWN
+Author: giuseppe de marco
+Author-email: demarcog83@gmail.com
 License: UNKNOWN
 Description: UNKNOWN
-Platform: UNKNOWN
+Platform: Debian jessie
