@@ -1,5 +1,6 @@
 # debian-python-live555
-Giuseppe De Marco, demarcog83 at gmail.com
+
+Giuseppe De Marco, demarcog83 at gmail.com 
 Mike McCandless, mikemccand at gmail.com
 
 This contains a small Python wrapper around the Live555 Streaming
@@ -19,12 +20,11 @@ INSTRUCTIONS:
     aptitude install livemedia-utils liblivemedia-dev python3 python3-dev python3-pip
 
   * then 
-    python3 setup.py build
-    python3 setup.py install
+    python3 setup.py build 
+    python3 setup.py install 
 
   * Run the example
-
-      python3 example.py 10.17.4.118 1 10 out.264
+    python3 example.py 10.17.4.118 1 10 out.264
     
     That will record 10 seconds of H264 video from the camera at
     10.17.4.118, channel 1, saving it to the file out.264.
