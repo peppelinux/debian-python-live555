@@ -17,26 +17,26 @@ report back if you succeed with other cameras.
 INSTRUCTIONS:
 
   1. First install the Live555 library from Debian repository</br>
-     aptitude install livemedia-utils liblivemedia-dev python3 python3-dev python3-pip
+     <b>aptitude install livemedia-utils liblivemedia-dev python3 python3-dev python3-pip</b>
   
   2. Download/clone this repo
 
   3. then</br>
-     python3 setup.py build
-     python3 setup.py install
+     <b>python3 setup.py build</b>
+     <b>python3 setup.py install</b>
 
   4. Run the example (some costants should be configured in example.py)</br>
-     python3 example.py 10.17.4.118 1 10 out.264
+     <b>python3 example.py 10.17.4.118 1 10 out.264</b>
     
      That will record 10 seconds of H264 video from the camera at</br>
      10.17.4.118, channel 1, saving it to the file out.264.
 
 This forge two files: video-H264-1 and audio-PCMU-2 </br>
-openRTSP  rtsp://admin:passwd@10.87.7.10:80</br>
+<b>openRTSP  rtsp://admin:passwd@10.87.7.10:80</b></br>
 
 Then convert it in a viewable format</br>
 ...only video</br>
-ffmpeg -i video-H264-1  -acodec copy -vcodec copy -map 0:0  merged.mp4</br>
+<b>ffmpeg -i video-H264-1  -acodec copy -vcodec copy -map 0:0  merged.mp4</b></br>
 
 ... or video and audio</br>
-ffmpeg -i video-H264-1 -i audio-PCMU-2 -acodec copy -vcodec copy -map 0:0 -map 1:0 merged.mp4</br>
+<b>ffmpeg -i video-H264-1 -i audio-PCMU-2 -acodec copy -vcodec copy -map 0:0 -map 1:0 merged.mp4</b></br>
