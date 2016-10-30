@@ -46,5 +46,5 @@ Then convert it in a viewable format</br>
 
 ...With vlc (see vlc python bindings)
 =====================================
-vlc -vvv rtsp://192.168.1.128:1554/11 --sout=file/ts:/media/path/to/save/location/recording-$(date +"%Y%m%d%H%M%S").ts -I dummy --stop-time=480 vlc://quit
+vlc rtsp://admin:passwdk@10.87.7.10:80 --sout=file/ts:mystream.mpg
 
