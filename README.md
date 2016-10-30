@@ -1,7 +1,7 @@
 # debian-python-live555
 
-Giuseppe De Marco, demarcog83 at gmail.com 
-Mike McCandless, mikemccand at gmail.com
+Giuseppe De Marco, demarcog83 at gmail.com__
+Mike McCandless, mikemccand at gmail.com__
 
 This contains a small Python wrapper around the Live555 Streaming
 Media APIs, so that you can load video frames.  It only wraps a tiny,
@@ -19,9 +19,9 @@ INSTRUCTIONS:
   * First install the Live555 library from Debian repository
     aptitude install livemedia-utils liblivemedia-dev python3 python3-dev python3-pip
 
-  * then 
-    python3 setup.py build 
-    python3 setup.py install 
+  * then
+    python3 setup.py build__
+    python3 setup.py install__ 
 
   * Run the example
     python3 example.py 10.17.4.118 1 10 out.264
