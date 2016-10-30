@@ -44,7 +44,7 @@ Then convert it in a viewable format</br>
 ... or video and audio</br>
 <b>ffmpeg -i video-H264-1 -i audio-PCMU-2 -acodec copy -vcodec copy -map 0:0 -map 1:0 merged.mp4</b></br>
 
-...With vlc (see vlc python bindings)
+...With vlc (see python-vlc for python integration)
 =====================================
 vlc -I dummy rtsp://admin:passwdk@10.87.7.10:80 --sout=file/ts:mystream.mpg
 
