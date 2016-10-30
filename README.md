@@ -31,6 +31,9 @@ INSTRUCTIONS:
      That will record 10 seconds of H264 video from the camera at</br>
      10.17.4.118, channel 1, saving it to the file out.264.
 
+Some alternative methods with live555 and ffmpeg
+================================================
+
 This forge two files: video-H264-1 and audio-PCMU-2 </br>
 <b>openRTSP  rtsp://admin:passwd@10.87.7.10:80</b></br>
 
@@ -40,3 +43,8 @@ Then convert it in a viewable format</br>
 
 ... or video and audio</br>
 <b>ffmpeg -i video-H264-1 -i audio-PCMU-2 -acodec copy -vcodec copy -map 0:0 -map 1:0 merged.mp4</b></br>
+
+...With vlc (see vlc python bindings)
+=====================================
+vlc -vvv rtsp://192.168.1.128:1554/11 --sout=file/ts:/media/path/to/save/location/recording-$(date +"%Y%m%d%H%M%S").ts -I dummy --stop-time=480 vlc://quit
+
