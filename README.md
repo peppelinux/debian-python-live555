@@ -1,5 +1,4 @@
 # debian-python-live555
-# debian-python-live555
 Giuseppe De Marco, demarcog83 at gmail.com
 Mike McCandless, mikemccand at gmail.com
 
