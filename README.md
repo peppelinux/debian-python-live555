@@ -46,5 +46,5 @@ Then convert it in a viewable format</br>
 
 ...With vlc (see vlc python bindings)
 =====================================
-vlc rtsp://admin:passwdk@10.87.7.10:80 --sout=file/ts:mystream.mpg
+vlc -I dummy rtsp://admin:passwdk@10.87.7.10:80 --sout=file/ts:mystream.mpg
 
