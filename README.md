@@ -34,17 +34,9 @@ INSTRUCTIONS:
 Some alternative methods with live555 and ffmpeg
 ================================================
 
-This forge two files: video-H264-1 and audio-PCMU-2 </br>
-<b>openRTSP  rtsp://admin:passwd@10.87.7.10:80</b></br>
+<b>openRTSP -4 -y -P 300 -F output rtsp://admin:passwd@10.87.7.10:80</b></br>
+will output 5-min mp4 chunks.
 
-Then convert it in a viewable format</br>
-...only video</br>
-<b>ffmpeg -i video-H264-1  -acodec copy -vcodec copy -map 0:0  merged.mp4</b></br>
-
-... or video and audio</br>
-<b>ffmpeg -i video-H264-1 -i audio-PCMU-2 -acodec copy -vcodec copy -map 0:0 -map 1:0 merged.mp4</b></br>
-
-...With vlc (see python-vlc for python integration)
 =====================================
 <b>vlc -I dummy rtsp://admin:passwdk@10.87.7.10:80 --sout=file/ts:mystream.mpg</b>
 
