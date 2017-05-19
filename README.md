@@ -12,7 +12,7 @@ to pull frames via RTSP/RTP from an IP camera.
 
 <b>Mike McCandless</b> tested on Linux with the surprisingly
 excellent <b>Lorex LNB2151/LNB2153</b> cameras, with H264 video.  
-<b>I'm</b> only tested with ipcam <b>Maygion h264</b>, not so surprising as camera but works.
+<b>I</b> only tested with ipcam <b>Maygion h264</b>, not so surprising as camera but works.
 
 INSTRUCTIONS:
 
